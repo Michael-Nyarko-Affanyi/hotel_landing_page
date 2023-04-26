@@ -33,7 +33,7 @@ function MiddleContent() {
             </div>
             <div className='w-[482px] h-full relative'>
                 <img src={require('../assets/aside.png')} className='w-full h-full object-cover' />
-                <div className='z-10 w-[212px] h-[61px] bg-white flex items-center gap-3 shadow-2xl absolute -top-8 right-44 rounded-lg'>
+                <div className='w-[212px] h-[61px] bg-white flex items-center gap-3 shadow-2xl absolute -top-8 right-44 rounded-lg'>
                     <div className='ml-5'>
                         <img src={require('../assets/cody.png')} />
                     </div>
@@ -42,7 +42,7 @@ function MiddleContent() {
                         <span className='text-[#29292966] accent-[#29292966]'>give rating <span className='text-[#FF7500]'>4.5</span></span>
                     </div>
                 </div>
-                <div className='z-10 w-[212px] h-[61px] bg-white flex items-center gap-3 shadow-2xl absolute top-28 -left-36 rounded-lg'>
+                <div className='w-[212px] h-[61px] bg-white flex items-center gap-3 shadow-2xl absolute top-28 -left-36 rounded-lg'>
                 <div className='ml-5'>
                         <img src={require('../assets/albert.png')} />
                     </div>
@@ -51,8 +51,8 @@ function MiddleContent() {
                         <span className='text-[#29292966] accent-[#29292966]'>give rating <span className='text-[#FF7500]'>4.5</span></span>
                     </div>
                 </div>
-                <div className='z-10 w-[212px] h-[61px] bg-white flex items-center gap-3 shadow-2xl absolute -bottom-8 left-20 rounded-lg'>
-                <div className='ml-5'>
+                <div className='w-[212px] h-[61px] bg-white flex items-center gap-3 shadow-2xl absolute -bottom-8 left-20 rounded-lg'>
+                     <div className='ml-5'>
                         <img src={require('../assets/devon.png')} />
                     </div>
                     <div className='flex flex-col'>
@@ -60,7 +60,7 @@ function MiddleContent() {
                         <span className='text-[#29292966] accent-[#29292966]'>give rating <span className='text-[#FF7500]'>4.5</span></span>
                     </div>
                 </div>
-                <div className='z-10 w-[439px] h-[219px] absolute top-52 -left-48'>
+                <div className='w-[439px] h-[219px] absolute top-52 -left-48'>
                     <img src={require('../assets/bg-main.png')} className='w-full h-full object-cover'/>
                 </div>
             </div>
